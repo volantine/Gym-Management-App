@@ -10,4 +10,4 @@
 - Change connection parameters in "src/pool.js" if needed
 - "npm run dev" to start frontend
 - "node src/server.js" to start backend
-- "localhost:5173" in browser to get started (port 5173 by default, might be different)# Gym-Management-App
+- "localhost:5173" in browser to get started (port 5173 by default, might be different)
