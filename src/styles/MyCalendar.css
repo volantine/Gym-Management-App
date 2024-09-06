@@ -1,0 +1,52 @@
+.rbc-calendar {
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+.rbc-event {
+    background-color: rgb(30, 30, 30);
+    border-color: black;
+}
+
+.rbc-event-content {
+    color: white;
+}
+
+.rbc-today {
+    background-color: rgb(30, 30, 30); /* Darker shade for today's date */
+}
+
+.rbc-header {
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+.rbc-timeslot-group {
+    border-color: rgb(30, 30, 30);
+}
+
+.rbc-toolbar-label {
+    color: white;
+}
+
+.rbc-toolbar-label {
+    color: white; /* Color for the toolbar labels */
+}
+
+.rbc-date-cell {
+    color: white; /* Color for the dates */
+}
+
+.rbc-now-indicator {
+    display: none;
+}
+
+/* Override styles for previous month's days */
+.rbc-off-range {
+    background-color: black;
+}
+  
+/* Override styles for previous month's day backgrounds */
+.rbc-off-range-bg {
+    background-color: black;
+}

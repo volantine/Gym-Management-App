@@ -1,0 +1,26 @@
+.equipment-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.equipment-table th,
+.equipment-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+.equipment-table tr {
+    background-color: white;
+}
+
+.equipment-table tbody tr:hover {
+    background-color: #f5f5f5; /* Highlight color when hovering */
+}
+
+.add-equipment input {
+width: 100%;
+}
+
+.add-equipment label {
+    margin-right: 5px;
+}

@@ -1,0 +1,8 @@
+.NavLinks {
+    cursor: pointer;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-width: 0.5px;
+    padding-top: 12px;
+}

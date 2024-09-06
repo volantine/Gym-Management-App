@@ -1,0 +1,61 @@
+.health-metrics-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.health-metrics-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; 
+}
+
+.health-metrics-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.health-metrics-container label {
+    margin-bottom: 10px;
+    color: #333; 
+}
+
+.health-metrics-container input[type="number"],
+.health-metrics-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333; 
+    /* -moz-appearance: textfield; */
+}
+
+.health-metrics-container input[type="number"]::-webkit-outer-spin-button,
+.health-metrics-container input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+.health-metrics-container button {
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: flex-start;
+}
+
+.health-metrics-container button:hover {
+    background-color: #0056b3;
+}
+
+.submission-notification {
+    margin-top: 10px;
+    color: green;
+}
+  
